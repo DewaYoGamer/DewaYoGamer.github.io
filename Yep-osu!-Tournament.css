@@ -123,11 +123,13 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 726px;
+    min-height: 905px;
   }
 
   .u-section-1 .u-list-1 {
     width: 429px;
+    margin-top: 497px;
+    margin-bottom: 60px;
   }
 
   .u-section-1 .u-repeater-1 {
