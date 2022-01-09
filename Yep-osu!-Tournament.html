@@ -24,7 +24,7 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "Yep osu Tournament",
-		"logo": "images/favicon.png",
+		"logo": "images/favicon.png?rand=5ce6",
 		"sameAs": [
 				"https://discord.com/invite/mYZcZjXeqm",
 				"https://challonge.com/",
@@ -87,7 +87,7 @@
 </head>
   <body class="u-body u-image" style="background-position: 50% 50%; background-image: url(&quot;images/default-image.jpg&quot;);"><header class="u-clearfix u-header" id="header"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="Yep-osu!-Tournament.html" data-page-id="2674707841" class="u-hover-feature u-image u-logo u-image-1" data-image-width="461" data-image-height="450" title="Home">
-          <img src="images/favicon.png" class="u-logo-image u-logo-image-1">
+          <img src="images/favicon.png?rand=5ce6" class="u-logo-image u-logo-image-1">
         </a>
         <a href="#regmode" class="u-btn u-btn-round u-button-style u-custom-font u-dialog-link u-hidden-sm u-hidden-xs u-hover-palette-5-light-1 u-palette-5-base u-radius-50 u-btn-1">Registration</a>
         <nav class="u-align-center-md u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-xl u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="SM">
@@ -120,7 +120,7 @@
                   <a class="u-social-url" title="Twitch" target="_blank" href="https://www.twitch.tv/dewayogamer"><span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-3"><img src="images/5968819.png" alt=""></span>
                   </a>
                 </div>
-                <a href="#fa" class="u-border-none u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-5-light-2 u-palette-5-light-1 u-radius-50 u-btn-2">Registration</a>
+                <a href="#regmode" class="u-border-none u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-5-light-2 u-palette-5-light-1 u-radius-50 u-btn-2">Registration</a>
               </div>
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
@@ -185,17 +185,17 @@ background-color: #f7c20d !important
           <div class="u-form u-form-1">
             <form action="https://formspree.io/f/mrgjbydd" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="Free Agent" style="padding: 10px;" redirect="true">
               <div class="u-form-group u-label-top">
-                <label for="name-6f54" class="u-custom-font u-font-lato u-label u-label-1">Your osu! Username</label>
-                <input type="text" id="name-6f54" name="ousername" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font" required="required" placeholder="11665488">
+                <label for="name-6f54" class="u-custom-font u-font-lato u-label u-label-1">Your osu! ID</label>
+                <input type="text" id="name-6f54" name="ousername" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font u-input-1" required="required" placeholder="11665488">
               </div>
               <div class="u-form-group u-label-top">
                 <label for="email-6f54" class="u-custom-font u-font-lato u-label u-label-2">Your Discord Tag</label>
-                <input type="text" placeholder="Siesta-#8059" id="email-6f54" name="dusername" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font" required="required">
+                <input type="text" placeholder="Siesta-#8059" id="email-6f54" name="dusername" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font u-input-2" required="required">
               </div>
               <div class="u-form-group u-form-select u-label-top u-form-group-3">
                 <label for="select-0a09" class="u-custom-font u-font-lato u-label u-label-3">Your Time Zone</label>
                 <div class="u-form-select-wrapper">
-                  <select id="select-0a09" name="time" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font" required="required">
+                  <select id="select-0a09" name="time" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font u-input-3" required="required">
                     <option value="UTC-11">UTC-11</option>
                     <option value="UTC-10">UTC-10</option>
                     <option value="UTC-9">UTC-9</option>
@@ -234,9 +234,7 @@ background-color: #f7c20d !important
             </form>
           </div>
           <p class="u-align-center u-text u-text-3">All player <span style="font-weight: 700;">MUST</span> join our <a href="https://discord.com/invite/mYZcZjXeqm" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-text-hover-grey-15 u-btn-2" target="_blank"><u>Discord Server</u>
-            </a> to join this tournament!<span style="font-size: 1rem;">
-              <span style="font-size: 0.875rem;"></span>
-            </span>
+            </a> to join this tournament! 
           </p>
           <p class="u-align-center u-text u-text-4">DM&nbsp;<span style="font-weight: 700;">Siesta-#8059 </span>on Discord if there is mistake in submitting the form
           </p>
@@ -282,11 +280,21 @@ background-color: #f7c20d !important
 .u-section-4 .u-label-1 {
   font-weight: 700;
   font-family: Lato, sans-serif;
+  font-size: 1rem;
+}
+
+.u-section-4 .u-input-1 {
+  font-size: 0.75rem;
 }
 
 .u-section-4 .u-label-2 {
   font-weight: 700;
   font-family: Lato, sans-serif;
+  font-size: 1rem;
+}
+
+.u-section-4 .u-input-2 {
+  font-size: 0.75rem;
 }
 
 .u-section-4 .u-form-group-3 {
@@ -296,6 +304,11 @@ background-color: #f7c20d !important
 .u-section-4 .u-label-3 {
   font-weight: 700;
   font-family: Lato, sans-serif;
+  font-size: 1rem;
+}
+
+.u-section-4 .u-input-3 {
+  font-size: 0.75rem;
 }
 
 .u-section-4 .u-btn-1 {
@@ -308,6 +321,7 @@ background-color: #f7c20d !important
 }
 
 .u-section-4 .u-text-3 {
+  font-size: 1.125rem;
   margin: 16px 0 0;
 }
 
@@ -318,6 +332,7 @@ background-color: #f7c20d !important
 
 .u-section-4 .u-text-4 {
   text-align: center;
+  font-size: 1.125rem;
   margin: 12px 0 0;
 }
 
@@ -330,10 +345,18 @@ background-color: #f7c20d !important
 @media (max-width: 1199px) {
   .u-section-4 .u-dialog-1 {
     height: auto;
+    min-height: 598px;
   }
 
   .u-section-4 .u-text-3 {
     width: 472px;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-4 .u-text-4 {
+    margin-top: 0;
   }
 }
 
@@ -361,11 +384,17 @@ background-color: #f7c20d !important
 @media (max-width: 575px) {
   .u-section-4 .u-dialog-1 {
     width: 340px;
+    min-height: 568px;
+  }
+
+  .u-section-4 .u-container-layout-1 {
+    padding-bottom: 20px;
   }
 
   .u-section-4 .u-text-1 {
     font-size: 1.875rem;
     width: 320px;
+    margin-top: 8px;
   }
 
   .u-section-4 .u-text-2 {
@@ -376,8 +405,30 @@ background-color: #f7c20d !important
     width: 320px;
   }
 
+  .u-section-4 .u-label-1 {
+    font-size: 0.75rem;
+  }
+
+  .u-section-4 .u-label-2 {
+    font-size: 0.75rem;
+  }
+
+  .u-section-4 .u-label-3 {
+    font-size: 0.75rem;
+  }
+
   .u-section-4 .u-text-3 {
-    width: 320px;
+    width: auto;
+    font-size: 0.75rem;
+    margin-top: 19px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-4 .u-text-4 {
+    font-size: 0.75rem;
+    width: auto;
+    margin-top: 0;
   }
 }</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-section-5" id="regmode">
       <div class="u-container-style u-dialog u-palette-5-dark-1 u-dialog-1">
@@ -526,21 +577,32 @@ background-color: #f7c20d !important
 
 @media (max-width: 575px) {
   .u-section-5 .u-dialog-1 {
-    width: 340px;
+    width: 800px;
+    height: auto;
   }
 
   .u-section-5 .u-text-1 {
-    font-size: 1.875rem;
-    width: 340px;
+    width: 448px;
+  }
+
+  .u-section-5 .u-btn-1 {
+    margin-left: 164px;
+  }
+
+  .u-section-5 .u-btn-2 {
+    margin-top: -79px;
+    margin-right: 72px;
   }
 
   .u-section-5 .u-text-2 {
-    width: 320px;
-    margin-right: 85px;
+    margin-right: 442px;
+    margin-left: 103px;
+    width: auto;
   }
 
   .u-section-5 .u-text-3 {
-    margin-left: 85px;
+    margin-right: 88px;
+    margin-left: 457px;
   }
 }</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-top-xs u-section-6" id="team">
       <div class="u-container-style u-dialog u-expanded-width-xs u-palette-5-dark-1 u-dialog-1">
@@ -555,7 +617,7 @@ background-color: #f7c20d !important
                 <input type="text" placeholder="WhenYouSeeIt" id="text-b8a7" name="teamname" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font u-input-1">
               </div>
               <div class="u-form-group u-form-partition-factor-2 u-label-top">
-                <label for="name-6f54" class="u-custom-font u-font-lato u-label u-label-2">Captain osu! Username</label>
+                <label for="name-6f54" class="u-custom-font u-font-lato u-label u-label-2">Captain osu! ID</label>
                 <input type="text" id="name-6f54" name="p1ousername" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font u-input-2" required="required" placeholder="11665488">
               </div>
               <div class="u-form-group u-form-partition-factor-2 u-label-top">
@@ -563,19 +625,19 @@ background-color: #f7c20d !important
                 <input type="text" placeholder="Siesta-#8059" id="email-6f54" name="p1dusername" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font u-input-3" required="required">
               </div>
               <div class="u-form-group u-form-partition-factor-4 u-label-top u-form-group-4">
-                <label for="text-317b" class="u-custom-font u-font-lato u-label u-label-4">P2 osu! Username</label>
+                <label for="text-317b" class="u-custom-font u-font-lato u-label u-label-4">P2 osu! ID</label>
                 <input type="text" id="text-317b" name="p2ousername" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font u-input-4" required="required">
               </div>
               <div class="u-form-group u-form-partition-factor-4 u-label-top u-form-group-5">
-                <label for="text-32cf" class="u-custom-font u-font-lato u-label u-label-5">P3 osu! Username</label>
+                <label for="text-32cf" class="u-custom-font u-font-lato u-label u-label-5">P3 osu! ID</label>
                 <input type="text" placeholder="" id="text-32cf" name="p3ousername" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font u-input-5" required="required">
               </div>
               <div class="u-form-group u-form-partition-factor-4 u-label-top u-form-group-6">
-                <label for="text-8d95" class="u-custom-font u-font-lato u-label u-label-6">P4 osu! Username</label>
+                <label for="text-8d95" class="u-custom-font u-font-lato u-label u-label-6">P4 osu! ID</label>
                 <input type="text" id="text-8d95" name="p4ousername" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font u-input-6" required="required">
               </div>
               <div class="u-form-group u-form-partition-factor-4 u-label-top u-form-group-7">
-                <label for="text-25fc" class="u-custom-font u-font-lato u-label u-label-7">P5 osu! Username</label>
+                <label for="text-25fc" class="u-custom-font u-font-lato u-label u-label-7">P5 osu! ID</label>
                 <input type="text" placeholder="" id="text-25fc" name="p5ousername" class="u-custom-font u-grey-10 u-input u-input-rectangle u-radius-8 u-text-font u-input-7">
               </div>
               <div class="u-form-group u-form-partition-factor-4 u-label-top u-form-group-8">
